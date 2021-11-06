@@ -9,7 +9,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 d = path.dirname(__file__)
 abspath = path.abspath(d)
 
-driver = webdriver.Chrome()
+driver = webdriver.Firefox()
 driver.maximize_window()
 
 
@@ -75,4 +75,4 @@ if __name__ == "__main__":
     # times = input("请输入抢购时间：")
     # 时间格式："2018-09-06 11:20:00.000000"
     login()
-    buy("2021-07-04 20:30:00.000000")
+    buy("2021-10-22 10:00:00.000000")
